@@ -1,0 +1,35 @@
+{
+  "name": "follysells",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@emotion/cache": "^11.11.0",
+    "@emotion/react": "^11.11.1",
+    "@emotion/server": "^11.11.0",
+    "@emotion/styled": "^11.11.0",
+    "@mui/icons-material": "^5.14.3",
+    "@mui/material": "^5.14.4",
+    "animate.css": "^4.1.1",
+    "axios": "^1.4.0",
+    "eslint": "8.42.0",
+    "eslint-config-next": "13.4.4",
+    "js-cookie": "^3.0.5",
+    "next": "^13.4.13",
+    "prop-types": "^15.8.1",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "react-icons": "^4.10.1",
+    "react-multi-carousel": "^2.8.4",
+    "react-responsive-carousel": "^3.2.23",
+    "react-simple-typewriter": "^5.0.1",
+    "react-slick": "^0.29.0",
+    "slick-carousel": "^1.8.1",
+    "swiper": "^10.1.0"
+  }
+}

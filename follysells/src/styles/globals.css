@@ -1,0 +1,86 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.hero{
+  background-image: linear-gradient(to right top, #b388eb, #be9ff1, #cbb6f6, #d9ccfa, #e8e2fd, #e1d9fe, #d9d0fe, #d2c7ff, #b19dff, #8d73ff, #6147ff, #0000ff);
+}
+
+/* Change the arrow color to red */
+.slick-prev:before,
+.slick-next:before {
+  color: red !important; /* Use !important to ensure the style is applied */
+}
+
+/* ! */
+/* Reslider.css */
+
+.carousel-root {
+  max-width: 100%; /* Adjust the width as needed */
+  margin: 0 auto;
+}
+
+.carousel-card {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #f0f0f0;
+  border-radius: 8px;
+  box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.2);
+  height: 200px; /* Set the height of the cards */
+  margin: 0 10px; /* Add margin between cards */
+}
+
+.custom-arrow {
+  background-color: rgba(0, 0, 0, 0.5);
+  color: white;
+  border: none;
+  border-radius: 50%;
+  font-size: 16px;
+  padding: 5px 10px;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.custom-arrow:hover {
+  background-color: rgba(0, 0, 0, 0.7);
+}
+
+.custom-arrow-left {
+  left: 10px;
+}
+
+.custom-arrow-right {
+  right: 10px;
+}
+
+/* ! spinner */
+.spinner-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100px;
+}
+
+.spinner {
+  width: 40px;
+  height: 40px;
+  border: 4px solid rgba(0, 0, 0, 0.1);
+  border-top: 4px solid #333;
+  border-radius: 50%;
+  animation: spin 1s linear infinite;
+}
+
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
